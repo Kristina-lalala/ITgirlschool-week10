@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aurora</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h2>Northern Lights</h2>
+    <div class="container">
+        <img src="./assets/image/aurora1.jpeg" alt="" id="main__picture">
+        <div class="gallery">
+            <img src="./assets/image/aurora1.jpeg" alt="aurora" class="picture" onclick="setPic(this)" id="1">
+            <img src="./assets/image/aurora2.png" alt="aurora" class="picture" onclick="setPic(this)" id="2">
+            <img src="./assets/image/aurora3.jpg" alt="aurora" class="picture" onclick="setPic(this)" id="3">
+        </div>
+    </div>
+    <div class="buttons">
+        <button onclick="back()">Previous</button>
+        <button onclick="forth()">Next</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
